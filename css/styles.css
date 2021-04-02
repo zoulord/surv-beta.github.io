@@ -160,6 +160,8 @@ a {
 
 }
 
+
+
 /* MEDIA QUERY EXAMPLE - MOBILE (XS) */
 @media (min-width: 576px) {
     .icon-work {
@@ -269,10 +271,11 @@ a {
     background-attachment: fixed;
 }
 
+
+
 .img-cover {
     background-size: cover;
     background-position: center;
-
 }
 
 
@@ -291,6 +294,14 @@ a {
 .img-survy {
     max-width: 70%;
 
+}
+
+.img-preview {
+    max-width: 100%;
+    background-color: transparent;
+    z-index: 1;
+    margin-bottom: -50rem;
+    opacity: 50%;
 }
 
 
