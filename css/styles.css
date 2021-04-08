@@ -160,6 +160,10 @@ a {
 
 }
 
+.margin-leftcollaborative {
+    margin-left: 0rem;
+}
+
 
 
 /* MEDIA QUERY EXAMPLE - MOBILE (XS) */
@@ -192,6 +196,10 @@ a {
         line-height: 1;
         margin-top: 1rem;
         text-align: center;
+    }
+
+    .margin-leftcollaborative {
+        margin-left: 9rem;
     }
 
 }
@@ -256,6 +264,10 @@ a {
         line-height: 1;
         margin-top: 1rem;
         text-align: left;
+    }
+
+    .margin-leftcollaborative {
+        margin-left: 8rem;
     }
 }
 
@@ -429,6 +441,8 @@ a {
 .margin-left {
     margin-left: 8rem;
 }
+
+
 
 .show-bkgd {
     border: #cccccc;
